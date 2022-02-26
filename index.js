@@ -15,10 +15,10 @@ var randomImageSource2= "images/dice" + randomNamber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 if(randomNamber1 > randomNamber2){
-  document.querySelector("h1").innerHTML =" Player 1 is the Winner! 🚩"
+  document.querySelector("h1").innerHTML =" Player 1 Wins! 🚩"
 }
 else if (randomNamber2> randomNamber1) {
-  document.querySelector("h1").innerHTML =" Player 2 is the Winner 🚩!"
+  document.querySelector("h1").innerHTML =" Player 2 Wins! 🚩"
 }
 else{
   document.querySelector("h1").innerHTML =" Draw!"
